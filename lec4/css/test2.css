@@ -1,0 +1,245 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(252, 252, 252);
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+header{
+    background-color: rgba(6, 154, 253, 0.541);
+    box-shadow: 0 1px 15px rgb(221, 221, 221);
+    height: 90px;
+}
+header nav{
+    display: flex;
+
+}
+header menu{
+    display: flex;
+    position: relative;
+}
+header menu ul {
+    display: flex;
+    margin-left: 20px;
+}
+header menu ul li{
+    list-style: none;
+    margin: 10px;
+    
+} 
+header menu ul li a{
+    color: #fff;
+}
+header menu a{
+    text-decoration: none;
+    color: #000;
+}
+
+header menu a img{
+    width: 150px;
+    position: absolute;
+    top: -25px;
+    left:2px;
+}
+header menu  .log{
+position: absolute;
+top: 10px;
+right: -1000px;
+}
+header menu .log a{
+    margin: 5px;  
+    padding: 5px;
+        border-radius: 3px;
+}
+header menu .log a#login{
+background-color: yellow ;    
+}
+header menu .log a#sign {
+background-color: rgb(0, 26, 255);
+color: #fff;
+}
+.main-sec{
+    background-image: url(../images/sec-one.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+form{
+    background: #fff;
+    display: inline-block;
+    padding: 30px;
+    margin: 40px;
+    border-radius: 10px;
+    color: #000;
+}
+form input{
+    display: block;
+    background-color: rgb(248, 248, 248);
+    border-radius: 2px;
+    border: 1px solid #000;
+height: 30px;
+width: 100%;
+margin-top: 2px;
+}
+form label{
+font-weight: bold;
+margin-top: 5px;
+
+}
+form button{
+    margin:  5px 50px 0px 100px;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 3px;
+    font-weight: bold;
+    background-color: aquamarine;
+}
+form .btn #btn1{
+    background-color: rgb(0, 4, 255);
+    color: #fff;
+    display: inline-block;
+    /* padding: 5px; */
+    border-radius: 2px;
+    width: 150px;
+    height: 40px;
+    margin:auto 0;
+    text-align: center;
+}
+form .btn #btn2 {
+background-color: rgb(255, 255, 255);
+    color: #000;
+    box-shadow: 0 5px 0px rgb(4, 0, 255);
+    border: 1px solid #000;
+    border-radius: 2px;
+    display: inline-block;
+    /* padding: 5px; */
+    border-radius: 2px;
+    width: 150px;
+    height: 40px;
+    margin: auto 0;
+    text-align: center;
+}
+.section-one{
+
+}
+.section-one .content{
+    display: flex;
+        width: 80%;
+        margin: 0 auto;
+        /* height: 1000px; */
+}
+.section-one img{
+    width: 400px;
+    height: 380px;
+}
+.section-one span{
+    font-weight: bold;
+    width: 600px;
+}
+.section-one p{
+    margin-top:30px ;
+    margin-left:-265px;
+}
+.section-one  h2{
+    color: #000;
+margin:15px 10%;
+}
+
+
+.section-two .content {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    /* height: 1000px; */
+}
+
+.section-two img {
+    width: 850px;
+        height: 400px;
+}
+
+.section-two span {
+    font-weight: bold;
+    width: 600px;
+}
+
+.section-two p {
+    margin-top: 30px;
+    margin-left: -265px;
+}
+
+.section-two h2 {
+    color: #000;
+    margin:0 0 15px 38%;
+}
+
+
+
+.section-three .content {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    /* height: 1000px; */
+}
+
+.section-three img {
+    width: 450px;
+    height: 300px;
+}
+
+.section-three span {
+    font-weight: bold;
+    width: 600px;
+}
+
+.section-three p {
+    margin-top: 30px;
+    margin-left: -265px;
+}
+
+.section-three h2 {
+    color: #000;
+margin: 15px 10%;
+}
+
+footer .cont{
+    max-width: 80%;
+
+}
+footer{
+    position: relative;
+    display: flex;
+    box-shadow: 0 1px 15px rgb(7, 7, 7);height: 180px;
+    text-align: center;
+   
+}
+footer menu ul{
+    position:absolute;
+    list-style:none ;
+   right: -1280px;
+}
+footer menu ul  li a{
+    text-decoration: none;
+    color: #000;
+}
+footer menu{
+   position: absolute;
+   
+}
+footer .details{
+    position: absolute;
+    left: 20px;
+    font-weight: bold;
+    color: #000;
+}
+footer .icon{
+    display: inline-block;
+    color: #000;
+    margin-left: 100px;
+   
+}
