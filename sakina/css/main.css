@@ -1,0 +1,252 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+menu ul {
+    display: flex;
+    list-style: none;
+}
+
+menu ul li {
+    margin: 5px;
+}
+
+menu ul li a {
+    text-decoration: none;
+}
+
+header {
+    position: relative;
+    box-shadow: 0 0 10px #000;
+    height: 80px;
+    background-color: #eee;
+}
+
+header nav {
+    display: flex;
+}
+
+header nav img {
+    position: absolute;
+    right: 50px;
+    top: 10px;
+}
+
+header nav menu ul {
+    position: absolute;
+    left: 150px;
+    bottom: 10px;
+}
+
+header nav menu ul li a {
+    color: #000;
+}
+
+header nav a#btn {
+    text-decoration: none;
+    background-color: green;
+    color: #fff;
+    height: 40px;
+    padding: 5px;
+    border-radius: 15px;
+    position: absolute;
+    left: 70px;
+    bottom: 20px;
+
+}
+
+.main {
+    position: relative;
+}
+
+.main p {
+    font-weight: 600px;
+    position: absolute;
+    right: 25px;
+}
+
+.main span {
+    font-weight: bold;
+    position: absolute;
+    right: 25px;
+    bottom: -50px;
+}
+
+.main .par {
+    position: absolute;
+    right: 20px;
+    bottom: -120px;
+    background-color: green;
+    width: 100%;
+}
+
+.main .par menu ul li a {
+    padding-left: 0px;
+    margin-left: 100px;
+    color: #fff;
+}
+
+.section {
+    position: absolute;
+    display: flex;
+    /* height: 1000px; */
+    margin-top: 200px;
+}
+
+.section .images {
+    position: absolute;
+    display: flex;
+    left: 20px;
+    width: 50%;
+}
+
+.section .images img {
+    width: 200px;
+}
+
+
+.section .content {
+    position: absolute;
+    right: -1300px;
+    text-align: right;
+}
+
+.section .content a {
+    position: absolute;
+    bottom: -100px;
+    right: 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: green;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+
+.section .images {
+    position: relative;
+    margin-left: 20px;
+}
+
+.section .images #img1 {
+    position: absolute;
+    left: 150px;
+    top: 180px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px;
+}
+
+.section .images #img2 {
+    position: absolute;
+    left: 120px;
+    top: 60px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px;
+    /* display: none; */
+}
+
+.section .images #img3 {
+    position: absolute;
+    left: 300px;
+    top: 110px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px;
+    /* display: none; */
+}
+
+.boxes {
+    position: absolute;
+    margin-top: 700px;
+    display: flex;
+height: 1000px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px;
+}
+
+.boxes #box3 {
+    position: absolute;
+    left: 880px;
+    text-align: right;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px;
+    height: 220px;
+    width: 450px;
+}
+.boxes #box3 .icon{
+    position: absolute;
+    right: 15px;
+    top: 100px;
+
+}
+
+.boxes #box3 p{
+    margin-top: 5px;
+}
+.boxes #box3 .txt{
+    margin-top: -20px;
+    
+}
+.boxes #box3 hr{
+    margin-top:100px;
+}
+
+.boxes #box3 .txt a{
+    position: absolute;
+    right: 0;
+    top: 170px;
+}
+.boxes #box2 {
+    position: absolute;
+    left: 280px;
+    background-color: aqua;
+    height: 150px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+        box-shadow: 0 0 10px;
+}
+
+.boxes #box1 {
+    position: absolute;
+
+    background-color: aqua;
+    height: 150px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+        box-shadow: 0 0 10px;
+}
+
+/*
+.section .box{
+    position: absolute;
+    top: 190px;
+    background-color: #fff;
+    width: 100%;
+    padding: 15px;
+    box-shadow: 0 0 10px #000;
+}
+.section .box .content {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    text-align: right;
+    
+    
+}
+.section .box .content p{
+    position: absolute;
+top: 10px;
+}
+.section .box .content span {
+    position: absolute;
+top: 120px;
+} */
