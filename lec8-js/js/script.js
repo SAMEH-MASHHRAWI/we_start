@@ -60,7 +60,6 @@ btn.addEventListener('click', function () {
         if (i < 0) {
             clearInterval(d);
         }
-        // 20
         f += size;
         progress.style.width = f + '%';
     }, 1000)
