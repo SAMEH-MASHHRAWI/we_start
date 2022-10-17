@@ -59,7 +59,7 @@ btn.addEventListener('click', function () {
         num.innerHTML = i--;
         if (i < 0) {
             clearInterval(d);
-        }
+        } 
         f += size;
         progress.style.width = f + '%';
     }, 1000)
