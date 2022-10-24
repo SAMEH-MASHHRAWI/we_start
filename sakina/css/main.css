@@ -168,7 +168,7 @@ header nav a#btn {
     position: absolute;
     margin-top: 700px;
     display: flex;
-height: 1000px;
+    height: 1000px;
     background-color: rgb(255, 255, 255);
     box-shadow: 0 0 10px;
 }
@@ -182,47 +182,57 @@ height: 1000px;
     height: 220px;
     width: 450px;
 }
-.boxes #box3 .icon{
+
+.boxes #box3 .icon {
     position: absolute;
     right: 15px;
     top: 100px;
 
 }
 
-.boxes #box3 p{
+.boxes #box3 p {
     margin-top: 5px;
 }
-.boxes #box3 .txt{
+
+.boxes #box3 .txt {
     margin-top: -20px;
-    
-}
-.boxes #box3 hr{
-    margin-top:100px;
+
 }
 
-.boxes #box3 .txt a{
+.boxes #box3 hr {
+    margin-top: 100px;
+}
+
+.boxes #box3 .txt a {
     position: absolute;
     right: 0;
     top: 170px;
 }
-.boxes #box2 {
+
+.boxes #box2,
+#box1 {
     position: absolute;
-    left: 280px;
-    background-color: aqua;
     height: 150px;
     width: 250px;
+    text-align: right;
     background-color: rgb(255, 255, 255);
         box-shadow: 0 0 10px;
+        margin-left: 10px;
 }
 
-.boxes #box1 {
+.boxes #box2 {
+    left: 280px;
+}
+.boxes #box1 a {
     position: absolute;
+    left: 150px;
+    bottom: 10px;
+}
 
-    background-color: aqua;
-    height: 150px;
-    width: 250px;
-    background-color: rgb(255, 255, 255);
-        box-shadow: 0 0 10px;
+.boxes #box2 a {
+    position: absolute;
+    left: 150px;
+    bottom: 10px;
 }
 
 /*
