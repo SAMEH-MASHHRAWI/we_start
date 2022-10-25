@@ -1,0 +1,117 @@
+[
+    {
+        "id": 1,
+        "image": "http://dummyimage.com/x.png/ff4444/ffffff",
+        "title": "Cheese - Le Cru Du Clocher",
+        "price": 404,
+        "category": "RF Shielding",
+        "color": [
+            {},
+            {},
+            {},
+            {}
+        ]
+    },
+    {
+        "id": 2,
+        "image": "http://dummyimage.com/x.png/cc0000/ffffff",
+        "title": "Wine - Piper Heidsieck Brut",
+        "price": 105,
+        "category": "Casework",
+        "color": [
+            {}
+        ]
+    },
+    {
+        "id": 3,
+        "image": "http://dummyimage.com/x.png/ff4444/ffffff",
+        "title": "Table Cloth 81x81 White",
+        "price": 236,
+        "category": "Overhead Doors",
+        "color": [
+            {},
+            {}
+        ]
+    },
+    {
+        "id": 4,
+        "image": "http://dummyimage.com/x.png/cc0000/ffffff",
+        "title": "Beef - Top Sirloin - Aaa",
+        "price": 195,
+        "category": "Glass & Glazing",
+        "color": [
+            {},
+            {}
+        ]
+    },
+    {
+        "id": 5,
+        "image": "http://dummyimage.com/x.png/cc0000/ffffff",
+        "title": "Mushroom - Portebello",
+        "price": 153,
+        "category": "Electrical",
+        "color": [
+            {}
+        ]
+    },
+    {
+        "id": 6,
+        "image": "http://dummyimage.com/x.png/dddddd/000000",
+        "title": "Swiss Chard - Red",
+        "price": 225,
+        "category": "HVAC",
+        "color": [
+            {},
+            {},
+            {}
+        ]
+    },
+    {
+        "id": 7,
+        "image": "http://dummyimage.com/x.png/dddddd/000000",
+        "title": "Kellogs Special K Cereal",
+        "price": 350,
+        "category": "Fire Protection",
+        "color": [
+            {},
+            {},
+            {}
+        ]
+    },
+    {
+        "id": 8,
+        "image": "http://dummyimage.com/x.png/dddddd/000000",
+        "title": "Bread - Italian Corn Meal Poly",
+        "price": 156,
+        "category": "Framing (Wood)",
+        "color": [
+            {}
+        ]
+    },
+    {
+        "id": 9,
+        "image": "http://dummyimage.com/x.png/5fa2dd/ffffff",
+        "title": "Juice - Apple, 500 Ml",
+        "price": 468,
+        "category": "Masonry & Precast",
+        "color": [
+            {},
+            {},
+            {},
+            {}
+        ]
+    },
+    {
+        "id": 10,
+        "image": "http://dummyimage.com/x.png/ff4444/ffffff",
+        "title": "Halibut - Steaks",
+        "price": 130,
+        "category": "Roofing (Metal)",
+        "color": [
+            {},
+            {},
+            {},
+            {}
+        ]
+    }
+]
