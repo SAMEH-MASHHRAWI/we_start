@@ -30,9 +30,9 @@ class PostRequest extends FormRequest
         ];
     }
     public function messages(){
-        return [
-            'title.required'=>'كسمك اكتب العنوان',
-            'content.required'=>'المحتوى فين ي كسمك'
+       return [
+            'title.required'=>'العنوان مطلوب ',
+            'content.required'=>'المحتوى مطلوب'
         ];
     }
 }
